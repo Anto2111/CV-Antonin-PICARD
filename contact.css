@@ -101,7 +101,7 @@ form .corps-formulaire .droite {
 form .corps-formulaire .droite .groupe {
   height: 100%;
 }
-form .corps-formulaire .droite .groupe textarea {
+form .corps-formulaire .droite .groupe .textarea {
   margin-top: 5px;
   padding: 10px;
   background-color: #f1f1f1;
