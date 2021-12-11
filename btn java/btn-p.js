@@ -2,6 +2,10 @@ const btnp = document.querySelector('.btnp');
 
 btnp.addEventListener('click', () => {
 
-    document.getElementById("projects-section").scrollIntoView({behavior: 'smooth'});
+    window.scrollTo({
+        top: 1430,
+        left: 0,
+        behavior: "smooth"
+    })
 
 })
