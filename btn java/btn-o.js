@@ -2,5 +2,10 @@ const btno = document.querySelector('.btno');
 
 btno.addEventListener('click', () => {
 
-    document.getElementById("offres").scrollIntoView({behavior: 'smooth'});
+    window.scrollTo({
+        top: 1870,
+        left: 0,
+        behavior: "smooth"
+    })
+
 })
