@@ -3,6 +3,10 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" charset="utf-8"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" charset="utf-8"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 		<link rel="stylesheet" href="style.css" />
 		<title>
 			CV Antonin PICARD
@@ -54,6 +58,7 @@
 			<section class="presentation-image">
 				<img src="./image/programmation (3).jpeg" alt="image" />
 			</section>
+
 
 			<section id="projects-section" align="center">
 				<h1>Projets réalisés</h1>
@@ -155,6 +160,83 @@
 
    			</div>
 			</section>
+
+
+            <section class="page-content" >
+				<section class="presentation-image">
+					<img src="./image/1588998536031.jpg" alt="image" />
+				</section>
+            </section>
+
+
+			<section class="services-section">
+				<div class="inner-width">
+				  <h1>Mes <strong>Motivations</strong></h1>
+				  <div class="services owl-carousel">
+		  
+					<div class="service">
+					  <div class="service-icon">
+						<i class="fas fa-paint-brush"></i>
+					  </div>
+					  <div class="service-name">Design</div>
+					  <div class="service-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam nesciunt similique!</div>
+					</div>
+		  
+					<div class="service">
+					  <div class="service-icon">
+						<i class="fas fa-pencil-alt"></i>
+					  </div>
+					  <div class="service-name">Edit Texts</div>
+					  <div class="service-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam nesciunt similique!</div>
+					</div>
+		  
+					<div class="service">
+					  <div class="service-icon">
+						<i class="fas fa-code"></i>
+					  </div>
+					  <div class="service-name">Build Websites</div>
+					  <div class="service-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam nesciunt similique!</div>
+					</div>
+		  
+					<div class="service">
+					  <div class="service-icon">
+						<i class="fas fa-database"></i>
+					  </div>
+					  <div class="service-name">Manage Databases</div>
+					  <div class="service-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam nesciunt similique!</div>
+					</div>
+		  
+					<div class="service">
+					  <div class="service-icon">
+						<i class="fas fa-headset"></i>
+					  </div>
+					  <div class="service-name">Support</div>
+					  <div class="service-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam nesciunt similique!</div>
+					</div>
+				  </div>
+				</div>
+			  </section>
+		  
+			  <script>
+				$(".services").owlCarousel({
+				  margin:20,
+				  loop:true,
+				  autoplay:true,
+				  autoplayTimeout:2000,
+				  autoplayHoverPause:true,
+				  responsive:{
+					0:{
+					  items:1
+					},
+					600:{
+					  items:2
+					},
+					1000:{
+					  items:3
+					}
+				  }
+				});
+			  </script>
 
 
 
