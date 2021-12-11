@@ -3,7 +3,7 @@ const btnmp = document.querySelector('.btnmp');
 btnmp.addEventListener('click', () => {
 
     window.scrollTo({
-        top: 0,
+        top: 4000,
         left: 0,
         behavior: "smooth"
     })
