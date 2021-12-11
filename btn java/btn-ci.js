@@ -1,5 +1,11 @@
 const btnci = document.querySelector('.btnci');
 
 btnci.addEventListener('click', () => {
-    document.getElementById("competence").scrollIntoView({behavior: 'smooth'});
+
+    window.scrollTo({
+        top: 2450,
+        left: 0,
+        behavior: "smooth"
+    })
+
 })
