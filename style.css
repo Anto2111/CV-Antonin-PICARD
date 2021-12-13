@@ -136,7 +136,7 @@ nav ul p:hover {
 	margin-right: 20px;
 	max-width: 195px;
 	padding: 20px;
-	margin-left: 20px;
+	margin-left: 30px;
 }
 .page-content #projects-section .project h4 {
 	margin: 0;
@@ -244,7 +244,45 @@ footer .colonne p {
 footer .colonne p:hover {
 	color: #fff;
 }
+footer .colonne a{
+	color: #ccc;
+	cursor: pointer;
+}
+footer button {
+	background-color: inherit;
+	border: none;
+	outline: none;
+	padding: 0;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #000;
+	cursor: pointer;
+}
 
+.contactbtn2{
+	border: none;
+
+	margin-top: 5%;
+	padding: 10px;
+	width: 220px;
+	font-family: "montserrat",sans-serif;
+	text-transform: uppercase;
+	border-radius: 6px;
+	cursor: pointer;
+	color: #fff;
+	background-size: 200%;
+	transition: 0.6s;
+	font-size: 12px;
+  }
+  
+  .contactbtn2{
+	background-image: linear-gradient(to left,#12CBC4,#0652DD,#12CBC4);
+  }
+  .contactbtn2:hover{
+	background-position: right;
+  }
+  
 @media screen and (max-width: 700px) {
 	nav {
 		justify-content: center;
