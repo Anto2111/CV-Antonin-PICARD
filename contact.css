@@ -7,6 +7,7 @@ body {
 }
 
 nav {
+  margin: 15px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -14,6 +15,7 @@ nav {
   background-color: white;
   position: sticky;
   top: 0;
+  border-radius: 6px;
 }
 nav .profile {
   display: flex;
@@ -41,14 +43,14 @@ nav ul li:hover {
   border-bottom-color: #000;
 }
 nav .profile h1 {
-  margin-left: 10px;
+  margin-left: 15px;
   font-size: 15px;
 }
 
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #fef1df;
+  background-color: #2d80df;
   position: absolute;
   top: 50%;
   left: 50%;
