@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Oswald:wght@300&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 body {
 	font-family: 'Noto Sans JP', sans-serif;
 	padding: 0 2%;
@@ -403,6 +403,95 @@ a {
 
 
 
+  
+
+
+
+
+  
+
+	.skill span{
+	  font-size: 12px;
+  }
+  .skill a{
+	font-size: 12px;
+	margin-right: 50px;
+}
+
+
+	.skill-box h1{
+		font-size: 12px;
+	}
+
+  .heading {
+	width: 200px;
+	font-size: 1.7rem;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+  }
+  
+  .skill {
+	margin-bottom: 0.5rem;
+  }
+  
+  .skill:last-child {
+	margin-bottom: 0;
+  }
+  
+  .details {
+	display: flex;
+
+	margin-bottom: 0.5rem;
+  }
+  
+  .bar {
+	background: #cecfec;
+	border-radius: 20px;
+	height: 0.5rem;
+	overflow: hidden;
+	width: 150px;
+  }
+  
+  .html-bar,
+  .css-bar,
+  .javascript-bar {
+	width: 0;
+	height: inherit;
+	background: linear-gradient(135deg, #6ab04c, #6ab04c);
+  }
+  
+  .html-bar {
+	animation: html-fill 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes html-fill {
+	100% {
+	  width: 51%;
+	}
+  }
+  
+  .css-bar {
+	animation: css-fill 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes css-fill {
+	100% {
+	  width: 41%;
+	}
+  }
+  
+  .javascript-bar {
+	animation: javascript-fill 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes javascript-fill {
+	100% {
+	  width: 8%;
+	}
+  }
+  
 
 
 
