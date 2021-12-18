@@ -176,6 +176,7 @@ nav ul p:hover {
   padding:20px;
   margin-right: 30px;
   margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .offres .carte img{
@@ -186,6 +187,9 @@ nav ul p:hover {
   padding:30px;
 
 }
+
+
+
 
 .competence h2, .competence p{
 	margin: 0;
@@ -224,7 +228,8 @@ nav ul p:hover {
 	margin-left: 22%;
 	height: 80%;
 	padding: 16px;
-
+	max-width: 100%;
+	height: auto;
 }
 
 footer {
