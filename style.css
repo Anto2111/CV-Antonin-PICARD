@@ -6,6 +6,20 @@ body {
 	margin: 0;
 }
 
+body::-webkit-scrollbar {
+	background: none;
+	width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: #566573;
+	border-radius: 50px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+	background: #808B96;
+}
+
 nav {
 	display: flex;
 	flex-wrap: wrap;
@@ -14,7 +28,9 @@ nav {
 	background-color: white;
 	position: sticky;
 	top: 0;
+	z-index: 10;
 }
+
 nav .profile {
 	display: flex;
 	align-items: center;
@@ -185,7 +201,6 @@ nav ul p:hover {
 
 .competence{
   padding:30px;
-
 }
 
 
@@ -207,9 +222,10 @@ nav ul p:hover {
   margin-top: 30px;
   margin-left: 40px;
   display:flex;
-  flex-wrap:wrap;
+  flex-wrap: nowrap;
   align-items:center;
   justify-content:left;
+  width: 90%;
 }
 
 .competence .carte{
@@ -237,7 +253,7 @@ footer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	padding: 10px;
+	padding: 20px;
 	background-color: #000;
 	color: white;
 }
@@ -287,7 +303,17 @@ footer button {
   .contactbtn2:hover{
 	background-position: right;
   }
-  
+
+@media screen and (max-width: 800px) {
+	.competence .competence-cartes {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.imagect .image img {
+		display: none;
+	}
+}
+
 @media screen and (max-width: 700px) {
 	nav {
 		justify-content: center;
